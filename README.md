@@ -78,4 +78,4 @@ Then to push that branch to the repo do
 git push -u origin <branch-name>
 ```
 
-This will prevent multiple pushes to main at the same time. I do not want to deal with _git_ troubleshooting.
+This will prevent multiple pushes to main at the same time. I do not want to deal with ***git*** troubleshooting.
