@@ -6,7 +6,7 @@ This research project aims to answer the following question: Does an Intrusion D
 
 ## Setup Instructions
 
-If not already install `uv`, it can be found here -> https://docs.astral.sh/uv/getting-started/installation/
+If you do not already have `uv` installed, you can do so from here -> https://docs.astral.sh/uv/getting-started/installation/
 
 Once `uv` is installed clone the repository to your local machine
 
