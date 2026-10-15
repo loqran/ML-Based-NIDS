@@ -27,6 +27,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "csvkit>=2.2.0",
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.4",
 ]
