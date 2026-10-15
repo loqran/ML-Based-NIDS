@@ -45,3 +45,29 @@ Once the files are unzipped and ready, ensure you activate the `.venv`. Then to 
 ```
 python tools/clean.py
 ```
+
+### Jupyter Notebook
+
+After running `clean.py` the data will be ready for processing. In the future I might integrate `clean.py` into the notebook to make the process more straight forward. To access jupyter notebook, in your terminal run
+
+```
+uv run jupyter lab
+```
+
+You can then access the notebook at http://localhost:8888/. From there you can find the code in the `notebooks/` folder.
+
+### Pushing to the repo
+
+Prior to pushing anything ensure that you are on a new branch, you can do that by running
+
+```
+git checkout -b <branch-name>
+```
+
+Then to push that branch to the repo do
+
+```
+git push -u origin <branch-name>
+```
+
+This will prevent multiple pushes to main at the same time. I do not want to deal with _git_ troubleshooting.
