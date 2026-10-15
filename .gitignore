@@ -11,3 +11,8 @@ wheels/
 
 # Folders
 data/
+.ipynb_checkpoints/
+
+# Files
+results/*.joblib
+.DS_Store
