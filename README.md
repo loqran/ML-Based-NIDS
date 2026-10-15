@@ -12,6 +12,8 @@ The project website can be found here: https://sites.google.com/oakland.edu/csi-
 
 ### Repo Clone and Setup
 
+To manage python packages we will be using `uv`, it will also double as a project manager. It's something I find really interesting and wanted to try out.
+
 If you do not already have `uv` installed, you can do so from here -> https://docs.astral.sh/uv/getting-started/installation/
 
 Once `uv` is installed clone the repository to your local machine
@@ -30,6 +32,12 @@ uv run
 This will create a `.venv`, and install all the necessary libraries and ensure there is no version mismatch
 
 Make sure to also run `mkdir data/` to create a folder for the two datasets. Dataset installation instruction can be found below.
+
+If new packages have been added, resync everything via uv
+
+```
+uv sync
+```
 
 ### Datasets
 
