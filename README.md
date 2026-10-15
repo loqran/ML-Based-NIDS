@@ -4,6 +4,10 @@
 
 This research project aims to answer the following question: Does an Intrusion Detector Travel? Measuring and Explaining Cross-Network Failure in ML-Based NIDS
 
+The research proposal will soon be added to the github.
+
+The project website can be found here: https://sites.google.com/oakland.edu/csi-4460-team-4/
+
 ## Setup Instructions
 
 ### Repo Clone and Setup
@@ -34,4 +38,10 @@ The Datasets we will be using are NF-UNSW-NB15-v2 and NF-CSE-CIC-IDS2018-v2. Bot
 ```
 unzip b3427ed8ad063a09_MOHANAD_A4706.zip
 unzip fe6cb615d161452c_MOHANAD_A4706.zip
+```
+
+Once the files are unzipped and ready, ensure you activate the `.venv`. Then to clean the dataset, labeling each flow as either benign (0) or attack (1) and removing IP addresses run the following from the project root:
+
+```
+python tools/clean.py
 ```
