@@ -30,4 +30,5 @@ dev = [
     "csvkit>=2.2.0",
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.4",
+    "pyarrow>=26.0.0",
 ]
