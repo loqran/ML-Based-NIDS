@@ -48,7 +48,7 @@ unzip b3427ed8ad063a09_MOHANAD_A4706.zip
 unzip fe6cb615d161452c_MOHANAD_A4706.zip
 ```
 
-Once the files are unzipped and ready, ensure you activate the `.venv`. Then to clean the dataset, labeling each flow as either benign (0) or attack (1) and removing IP addresses run the following from the project root:
+~~Once the files are unzipped and ready, ensure you activate the `.venv`. Then to clean the dataset, labeling each flow as either benign (0) or attack (1) and removing IP addresses run the following from the project root:~~
 
 ```
 python tools/clean.py
@@ -56,7 +56,7 @@ python tools/clean.py
 
 ### Jupyter Notebook
 
-After running `clean.py` the data will be ready for processing. In the future I might integrate `clean.py` into the notebook to make the process more straight forward. To access jupyter notebook, in your terminal run
+~~After running `clean.py` the data will be ready for processing.~~ In the future I might integrate `clean.py` into the notebook to make the process more straight forward. `clean.py` has been integrated into jupyter notebook to make things more straight forward. To access jupyter notebook, in your terminal run
 
 ```
 uv run jupyter lab
